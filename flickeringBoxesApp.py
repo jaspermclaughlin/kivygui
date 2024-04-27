@@ -10,14 +10,14 @@ from kivy.uix.popup import Popup
 from kivy.uix.textinput import TextInput
 from kivy.uix.behaviors import ButtonBehavior
 
+REFRESHRATE = 60
+
 class ColoredBox(BoxLayout):
     def __init__(self, color, base_frequency, app, **kwargs):
         super(ColoredBox, self).__init__(**kwargs)
         self.base_frequency = base_frequency
-        self.target_duration = 1.0 / (2 * self.base_frequency)  # Duration of each state in seconds
-        self.state_duration = 0
-        self.elapsed_time = 0
-        self.state_changes = []  # List to store timestamps of state changes
+        self.nframes = 0
+        self.targetFrames = REFRESHRATE / base_frequency
         self.flicker_state = 1
         self.app = app
 
@@ -38,20 +38,14 @@ class ColoredBox(BoxLayout):
 
     def update(self, dt):
         if self.app and self.app.is_running:
-            self.elapsed_time += dt
-            self.state_duration += dt
-
+            self.nframes += 1
             # Check if it's time to change the flicker state
-            if self.state_duration >= self.target_duration:
+            if self.nframes > self.targetFrames:
                 self.flicker_state = 1 - self.flicker_state  # Toggle flicker state
-                self.state_duration = 0  # Reset state duration
+                self.nframes = 1  # Reset state duration
 
-            # Set opacity based on flicker state
-            self.opacity = int(self.state_duration < self.target_duration and self.flicker_state == 1)
-
-            # Reset elapsed time after a full second
-            if self.elapsed_time >= 1.0:
-                self.elapsed_time -= 1.0
+            # Set opacity based on flicker state and frame counting
+            self.opacity = int(self.nframes <= self.targetFrames and self.flicker_state == 1)
 
             # Update frequency label
             self.frequency_label.text = f"Frequency: {self.base_frequency}"
@@ -72,7 +66,7 @@ class FlickeringBoxesApp(App):
     def build(self):
         self.layout = GridLayout(cols=2, spacing=10)
         words = ["Banana", "Apple", "Orange", "Cucumber"]
-        frequencies = [6, 12, 20, 4]
+        frequencies = [4, 6, 10, 20]
         self.response_boxes = []
 
         for i, word in enumerate(words):
@@ -84,7 +78,7 @@ class FlickeringBoxesApp(App):
             self.layout.add_widget(response_box)
             self.response_boxes.append(response_box)
 
-            Clock.schedule_interval(response_box.update, 1.0 / 10000)
+            Clock.schedule_interval(response_box.update, 1.0 / REFRESHRATE)
 
         toggle_button = Button(text="Start", on_press=self.toggle_clock)
         settings_button = Button(text="Settings", on_press=self.show_settings_popup)
@@ -146,7 +140,7 @@ class FlickeringBoxesApp(App):
             # Update each box with the new settings
             box.children[0].text = word_input.text  # Update label text
             box.base_frequency = int(frequency_input.text)  # Update base frequency
-            box.target_duration = 1.0 / (2 * box.base_frequency)  # Update target duration
+            box.targetFrames = REFRESHRATE / box.base_frequency  # Update target duration
 
             # Update the frequency label in real-time
             box.frequency_label.text = f"Frequency: {box.base_frequency}"
