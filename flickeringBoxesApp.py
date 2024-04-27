@@ -10,6 +10,13 @@ from kivy.uix.popup import Popup
 from kivy.uix.textinput import TextInput
 from kivy.uix.behaviors import ButtonBehavior
 
+
+# Comment about internal Clock() function: 
+# Checking the "dt" after each update cycle it turns out that the intervals are not calculated correctly. at a refresh rate of 60Hz the updating should occur 
+# in 1/60 = 0.016666 second intervals. This is not the case. The app performs the updating at intervals of 0.0125. Specifically, I tested whether this is a gradual
+# approximation, and it is not. The critical point where there is a sudden change in the "dt" is at a refresh rate of 55Hz where the updating intervals suddenly double
+# and are called every 0.025 seconds. You can check this by adjusting the REFRESHRATE variable and print(dt). 
+
 REFRESHRATE = 60
 
 class ColoredBox(BoxLayout):
