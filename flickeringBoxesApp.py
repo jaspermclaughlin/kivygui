@@ -55,7 +55,6 @@ class ColoredBox(BoxLayout):
 
             # Update frequency label
             self.frequency_label.text = f"Frequency: {self.base_frequency}"
-            print(dt)
 
 class ResponseBox(ButtonBehavior, ColoredBox):
     def __init__(self, color, base_frequency, app, index, **kwargs):
@@ -85,7 +84,7 @@ class FlickeringBoxesApp(App):
             self.layout.add_widget(response_box)
             self.response_boxes.append(response_box)
 
-            Clock.schedule_interval(response_box.update, 1.0 / 60)
+            Clock.schedule_interval(response_box.update, 1.0 / 10000)
 
         toggle_button = Button(text="Start", on_press=self.toggle_clock)
         settings_button = Button(text="Settings", on_press=self.show_settings_popup)
