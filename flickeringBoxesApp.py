@@ -1,6 +1,4 @@
-import time 
-
-
+import time
 from kivy.app import App
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.boxlayout import BoxLayout
@@ -57,6 +55,7 @@ class ColoredBox(BoxLayout):
 
             # Update frequency label
             self.frequency_label.text = f"Frequency: {self.base_frequency}"
+            print(dt)
 
 class ResponseBox(ButtonBehavior, ColoredBox):
     def __init__(self, color, base_frequency, app, index, **kwargs):
@@ -86,7 +85,7 @@ class FlickeringBoxesApp(App):
             self.layout.add_widget(response_box)
             self.response_boxes.append(response_box)
 
-            Clock.schedule_interval(response_box.update, 1.0 / 10000)
+            Clock.schedule_interval(response_box.update, 1.0 / 60)
 
         toggle_button = Button(text="Start", on_press=self.toggle_clock)
         settings_button = Button(text="Settings", on_press=self.show_settings_popup)
@@ -103,12 +102,7 @@ class FlickeringBoxesApp(App):
         self.settings_popup = None  # Initialize settings_popup attribute
 
         return root_layout
-    
-    def show_settings_popup(self, instance):
-        if not self.settings_popup:
-            self.settings_popup = SettingsPopup(self)
-        self.settings_popup.open()
-    
+
     def toggle_clock(self, instance):
         self.is_running = not self.is_running
         instance.text = "Stop" if self.is_running else "Start"
