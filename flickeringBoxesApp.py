@@ -17,6 +17,8 @@ from kivy.uix.behaviors import ButtonBehavior
 # approximation, and it is not. The critical point where there is a sudden change in the "dt" is at a refresh rate of 55Hz where the updating intervals suddenly double
 # and are called every 0.025 seconds. You can check this by adjusting the REFRESHRATE variable and print(dt). 
 
+
+# This implementation is dependent on the refreshrate. Ideally, this should be coded dynamically but I am not sure how. 
 REFRESHRATE = 60
 
 class ColoredBox(BoxLayout):
