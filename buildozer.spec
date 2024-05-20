@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = FlickeringBoxesApp
+title = My Application
 
 # (str) Package name
-package.name = flickeringboxesapp
+package.name = myapp
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.flickeringBoxesApp
+package.domain = org.test
 
 # (str) Source code where the main.py live
 source.dir = .

@@ -1,4 +1,5 @@
 import time
+from time import sleep
 from kivy.app import App
 from kivy.uix.gridlayout import GridLayout
 from kivy.uix.boxlayout import BoxLayout
@@ -19,14 +20,14 @@ from kivy.uix.behaviors import ButtonBehavior
 
 
 # This implementation is dependent on the refreshrate. Ideally, this should be coded dynamically but I am not sure how. 
-REFRESHRATE = 60
+REFRESHRATE = 60  
 
 class ColoredBox(BoxLayout):
     def __init__(self, color, base_frequency, app, **kwargs):
         super(ColoredBox, self).__init__(**kwargs)
         self.base_frequency = base_frequency
         self.nframes = 0
-        self.targetFrames = REFRESHRATE / base_frequency
+        self.targetFrames = REFRESHRATE / (base_frequency*2)
         self.flicker_state = 1
         self.app = app
 
@@ -47,17 +48,24 @@ class ColoredBox(BoxLayout):
 
     def update(self, dt):
         if self.app and self.app.is_running:
-            self.nframes += 1
             # Check if it's time to change the flicker state
-            if self.nframes > self.targetFrames:
+            if self.nframes >= self.targetFrames:
                 self.flicker_state = 1 - self.flicker_state  # Toggle flicker state
-                self.nframes = 1  # Reset state duration
+                self.nframes = 0  # Reset frame count
 
             # Set opacity based on flicker state and frame counting
-            self.opacity = int(self.nframes <= self.targetFrames and self.flicker_state == 1)
+            self.opacity = int(self.nframes < self.targetFrames and self.flicker_state == 1)
+            self.nframes += 1
 
             # Update frequency label
             self.frequency_label.text = f"Frequency: {self.base_frequency}"
+
+            # Getting the updating cycles as close as possible to the correct cycles
+            error = (1/REFRESHRATE) - dt
+            if error > 0:
+                sleep(error) #
+            print(dt)
+
 
 class ResponseBox(ButtonBehavior, ColoredBox):
     def __init__(self, color, base_frequency, app, index, **kwargs):
@@ -75,7 +83,7 @@ class FlickeringBoxesApp(App):
     def build(self):
         self.layout = GridLayout(cols=2, spacing=10)
         words = ["Banana", "Apple", "Orange", "Cucumber"]
-        frequencies = [4, 6, 10, 20]
+        frequencies = [20, 30, 60, 15]
         self.response_boxes = []
 
         for i, word in enumerate(words):
@@ -87,7 +95,7 @@ class FlickeringBoxesApp(App):
             self.layout.add_widget(response_box)
             self.response_boxes.append(response_box)
 
-            Clock.schedule_interval(response_box.update, 1.0 / REFRESHRATE)
+            Clock.schedule_interval(response_box.update, 1.0 / REFRESHRATE) # !!!
 
         toggle_button = Button(text="Start", on_press=self.toggle_clock)
         settings_button = Button(text="Settings", on_press=self.show_settings_popup)

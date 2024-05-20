@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47f17943-229c-4818-8ab7-fd3f0a5618dc" name="Changes" comment="" />
+    <list default="true" id="47f17943-229c-4818-8ab7-fd3f0a5618dc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/libs/armeabi-v7a/libsqlite3.so" beforeDir="false" afterPath="$PROJECT_DIR$/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/libs/armeabi-v7a/libsqlite3.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a/libsqlite3.so" beforeDir="false" afterPath="$PROJECT_DIR$/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a/libsqlite3.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a/objs-debug/sqlite3/sqlite3.o" beforeDir="false" afterPath="$PROJECT_DIR$/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a/objs-debug/sqlite3/sqlite3.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a/objs-debug/sqlite3/sqlite3.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a/objs-debug/sqlite3/sqlite3.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildozer.spec" beforeDir="false" afterPath="$PROJECT_DIR$/buildozer.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/flickeringBoxesApp.py" beforeDir="false" afterPath="$PROJECT_DIR$/flickeringBoxesApp.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
