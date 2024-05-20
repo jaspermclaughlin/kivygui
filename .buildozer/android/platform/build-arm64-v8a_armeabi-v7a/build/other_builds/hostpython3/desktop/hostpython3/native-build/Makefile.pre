@@ -28,10 +28,10 @@ MODLIBS=           _MODLIBS_
 
 # === Variables set by configure
 VERSION=	3.11
-srcdir=		/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3
-VPATH=		/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3
-abs_srcdir=	/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3
-abs_builddir=	/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
+srcdir=		/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3
+VPATH=		/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3
+abs_srcdir=	/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3
+abs_builddir=	/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build
 
 
 CC=		gcc
@@ -308,10 +308,10 @@ MODULE__SQLITE3_STATE=disabled
 MODULE__TKINTER_STATE=missing
 MODULE__UUID_STATE=missing
 MODULE_ZLIB_STATE=yes
-MODULE_ZLIB_CFLAGS=
+MODULE_ZLIB_CFLAGS=-DWITH_GZFILEOP
 MODULE_ZLIB_LDFLAGS=-lz
 MODULE_BINASCII_STATE=yes
-MODULE_BINASCII_CFLAGS=-DUSE_ZLIB_CRC32 
+MODULE_BINASCII_CFLAGS=-DUSE_ZLIB_CRC32 -DWITH_GZFILEOP
 MODULE_BINASCII_LDFLAGS=-lz
 MODULE__BZ2_STATE=yes
 MODULE__BZ2_CFLAGS=

@@ -423,18 +423,18 @@ $config_headers
 
 Report bugs to <https://github.com/python/cpython/issues/>."
 
-ac_cs_config="'--host=arm-linux-androideabi' '--build=x86_64-pc-linux-gnu' '--enable-shared' '--enable-ipv6' 'ac_cv_file__dev_ptmx=yes' 'ac_cv_file__dev_ptc=no' '--without-ensurepip' 'ac_cv_little_endian_double=yes' 'ac_cv_header_sys_eventfd_h=no' '--prefix=/usr/local' '--exec-prefix=/usr/local' '--enable-loadable-sqlite-extensions' '--with-build-python=/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3' '--with-openssl=/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1' '--with-openssl=/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=arm-linux-androideabi' 'PKG_CONFIG_PATH=/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi' 'CC=/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang' 'CFLAGS=-fPIC -DANDROID' 'LDFLAGS=  -L/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/flickeringboxesapp/armeabi-v7a -L/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a -L/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs -L/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 -L/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21' 'LIBS= -lsqlite3 -lffi -lcrypto1.1 -lssl1.1 -lz' 'CPPFLAGS=-DANDROID -I/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/flickeringboxesapp/armeabi-v7a/include/python3.1 -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl -I/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include'"
+ac_cs_config="'--host=arm-linux-androideabi' '--build=x86_64-pc-linux-gnu' '--enable-shared' '--enable-ipv6' 'ac_cv_file__dev_ptmx=yes' 'ac_cv_file__dev_ptc=no' '--without-ensurepip' 'ac_cv_little_endian_double=yes' 'ac_cv_header_sys_eventfd_h=no' '--prefix=/usr/local' '--exec-prefix=/usr/local' '--enable-loadable-sqlite-extensions' '--with-build-python=/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3' '--with-openssl=/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=arm-linux-androideabi' 'PKG_CONFIG_PATH=/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi' 'CC=/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang' 'CFLAGS=-fPIC -DANDROID' 'LDFLAGS=  -L/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/myapp/armeabi-v7a -L/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a -L/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs -L/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 -L/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21' 'LIBS= -lsqlite3 -lffi -lcrypto1.1 -lssl1.1 -lz' 'CPPFLAGS=-DANDROID -I/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/myapp/armeabi-v7a/include/python3.1 -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl -I/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include'"
 ac_cs_version="\
 python config.status 3.11
-configured by /home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/configure, generated by GNU Autoconf 2.69,
+configured by /home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/configure, generated by GNU Autoconf 2.69,
   with options \"$ac_cs_config\"
 
 Copyright (C) 2012 Free Software Foundation, Inc.
 This config.status script is free software; the Free Software Foundation
 gives unlimited permission to copy, distribute and modify it."
 
-ac_pwd='/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/android-build'
-srcdir='/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3'
+ac_pwd='/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/android-build'
+srcdir='/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3'
 INSTALL='/usr/bin/install -c'
 MKDIR_P='/usr/bin/mkdir -p'
 test -n "$AWK" || AWK=awk
@@ -514,7 +514,7 @@ if $ac_cs_silent; then
 fi
 
 if $ac_cs_recheck; then
-  set X /bin/sh '/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/configure'  '--host=arm-linux-androideabi' '--build=x86_64-pc-linux-gnu' '--enable-shared' '--enable-ipv6' 'ac_cv_file__dev_ptmx=yes' 'ac_cv_file__dev_ptc=no' '--without-ensurepip' 'ac_cv_little_endian_double=yes' 'ac_cv_header_sys_eventfd_h=no' '--prefix=/usr/local' '--exec-prefix=/usr/local' '--enable-loadable-sqlite-extensions' '--with-build-python=/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3' '--with-openssl=/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1' '--with-openssl=/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=arm-linux-androideabi' 'PKG_CONFIG_PATH=/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi' 'CC=/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang' 'CFLAGS=-fPIC -DANDROID' 'LDFLAGS=  -L/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/flickeringboxesapp/armeabi-v7a -L/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a -L/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs -L/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 -L/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21' 'LIBS= -lsqlite3 -lffi -lcrypto1.1 -lssl1.1 -lz' 'CPPFLAGS=-DANDROID -I/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/flickeringboxesapp/armeabi-v7a/include/python3.1 -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl -I/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include' $ac_configure_extra_args --no-create --no-recursion
+  set X /bin/sh '/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/python3/armeabi-v7a__ndk_target_21/python3/configure'  '--host=arm-linux-androideabi' '--build=x86_64-pc-linux-gnu' '--enable-shared' '--enable-ipv6' 'ac_cv_file__dev_ptmx=yes' 'ac_cv_file__dev_ptc=no' '--without-ensurepip' 'ac_cv_little_endian_double=yes' 'ac_cv_header_sys_eventfd_h=no' '--prefix=/usr/local' '--exec-prefix=/usr/local' '--enable-loadable-sqlite-extensions' '--with-build-python=/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3' '--with-openssl=/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=arm-linux-androideabi' 'PKG_CONFIG_PATH=/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi' 'CC=/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang' 'CFLAGS=-fPIC -DANDROID' 'LDFLAGS=  -L/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/myapp/armeabi-v7a -L/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a -L/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs -L/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 -L/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21' 'LIBS= -lsqlite3 -lffi -lcrypto1.1 -lssl1.1 -lz' 'CPPFLAGS=-DANDROID -I/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/myapp/armeabi-v7a/include/python3.1 -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3 -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/include -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl -I/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include' $ac_configure_extra_args --no-create --no-recursion
   shift
   $as_echo "running CONFIG_SHELL=/bin/sh $*" >&6
   CONFIG_SHELL='/bin/sh'
@@ -694,10 +694,10 @@ S["MODULE_BLOCK"]="MODULE__IO_STATE=yes\n"\
 "MODULE__TKINTER_STATE=missing\n"\
 "MODULE__UUID_STATE=missing\n"\
 "MODULE_ZLIB_STATE=yes\n"\
-"MODULE_ZLIB_CFLAGS=\n"\
+"MODULE_ZLIB_CFLAGS=-DWITH_GZFILEOP\n"\
 "MODULE_ZLIB_LDFLAGS=-lz\n"\
 "MODULE_BINASCII_STATE=yes\n"\
-"MODULE_BINASCII_CFLAGS=-DUSE_ZLIB_CRC32 \n"\
+"MODULE_BINASCII_CFLAGS=-DUSE_ZLIB_CRC32 -DWITH_GZFILEOP\n"\
 "MODULE_BINASCII_LDFLAGS=-lz\n"\
 "MODULE__BZ2_STATE=yes\n"\
 "MODULE__BZ2_CFLAGS=\n"\
@@ -706,15 +706,15 @@ S["MODULE_BLOCK"]="MODULE__IO_STATE=yes\n"\
 "MODULE__LZMA_CFLAGS=\n"\
 "MODULE__LZMA_LDFLAGS=-llzma\n"\
 "MODULE__SSL_STATE=yes\n"\
-"MODULE__SSL_CFLAGS=-I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__"\
-"ndk_target_21/openssl1.1/include\n"\
-"MODULE__SSL_LDFLAGS=-L/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a_"\
-"_ndk_target_21/openssl1.1/lib  -lssl -lcrypto\n"\
+"MODULE__SSL_CFLAGS=-I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi"\
+"-v7a__ndk_target_21/openssl1.1/include\n"\
+"MODULE__SSL_LDFLAGS=-L/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeab"\
+"i-v7a__ndk_target_21/openssl1.1/lib  -lssl -lcrypto\n"\
 "MODULE__HASHLIB_STATE=yes\n"\
-"MODULE__HASHLIB_CFLAGS=-I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v"\
-"7a__ndk_target_21/openssl1.1/include\n"\
-"MODULE__HASHLIB_LDFLAGS=-L/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-"\
-"v7a__ndk_target_21/openssl1.1/lib   -lcrypto\n"\
+"MODULE__HASHLIB_CFLAGS=-I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm"\
+"eabi-v7a__ndk_target_21/openssl1.1/include\n"\
+"MODULE__HASHLIB_LDFLAGS=-L/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/ar"\
+"meabi-v7a__ndk_target_21/openssl1.1/lib   -lcrypto\n"\
 "MODULE__TESTCAPI_STATE=yes\n"\
 "MODULE__TESTCLINIC_STATE=yes\n"\
 "MODULE__TESTINTERNALCAPI_STATE=yes\n"\
@@ -887,11 +887,11 @@ S["TEST_MODULES"]="yes"
 S["LIBB2_LIBS"]=""
 S["LIBB2_CFLAGS"]=""
 S["OPENSSL_RPATH"]=""
-S["OPENSSL_LDFLAGS"]="-L/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/opens"\
-"sl1.1/lib"
+S["OPENSSL_LDFLAGS"]="-L/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21"\
+"/openssl1.1/lib"
 S["OPENSSL_LIBS"]="-lssl -lcrypto"
-S["OPENSSL_INCLUDES"]="-I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/opens"\
-"sl1.1/include"
+S["OPENSSL_INCLUDES"]="-I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21"\
+"/openssl1.1/include"
 S["ENSUREPIP"]="no"
 S["SRCDIRS"]="  Modules   Modules/_blake2   Modules/_ctypes   Modules/_decimal   Modules/_decimal/libmpdec   Modules/_io   Modules/_multiprocessing   Modules/_sha"\
 "3   Modules/_sqlite   Modules/_sre   Modules/_xxtestfuzz   Modules/cjkcodecs   Modules/expat   Objects   Parser   Programs   Python   Python/frozen_"\
@@ -921,7 +921,7 @@ S["LIBLZMA_CFLAGS"]=""
 S["BZIP2_LIBS"]="-lbz2"
 S["BZIP2_CFLAGS"]=""
 S["ZLIB_LIBS"]="-lz"
-S["ZLIB_CFLAGS"]=""
+S["ZLIB_CFLAGS"]="-DWITH_GZFILEOP"
 S["TRUE"]="true"
 S["MACHDEP_OBJS"]=""
 S["DYNLOADFILE"]="dynload_shlib.o"
@@ -945,8 +945,8 @@ S["LIBNSL_CFLAGS"]=""
 S["LIBMPDEC_INTERNAL"]="$(LIBMPDEC_HEADERS) $(LIBMPDEC_A)"
 S["LIBMPDEC_LDFLAGS"]="-lm $(LIBMPDEC_A)"
 S["LIBMPDEC_CFLAGS"]="-I$(srcdir)/Modules/_decimal/libmpdec -DCONFIG_32=1 -DANSI=1"
-S["LIBFFI_INCLUDEDIR"]="/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/i"\
-"nclude"
+S["LIBFFI_INCLUDEDIR"]="/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/li"\
+"bffi/include"
 S["LIBEXPAT_INTERNAL"]="$(LIBEXPAT_HEADERS) $(LIBEXPAT_A)"
 S["LIBEXPAT_LDFLAGS"]="-lm $(LIBEXPAT_A)"
 S["LIBEXPAT_CFLAGS"]="-I$(srcdir)/Modules/expat"
@@ -1035,20 +1035,20 @@ S["OBJEXT"]="o"
 S["EXEEXT"]=""
 S["ac_ct_CC"]=""
 S["CPPFLAGS"]="-DANDROID -I/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/ja"\
-"spermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/flickeringboxesapp/armeabi-v7a/include/python3."\
-"1 -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sql"\
-"ite3 -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/l"\
-"ibffi/include -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_t"\
-"arget_21/openssl1.1/include -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arme"\
-"abi-v7a__ndk_target_21/openssl1.1/include/internal -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/ot"\
-"her_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl -I/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolc"\
-"hains/llvm/prebuilt/linux-x86_64/sysroot/usr/include"
-S["LDFLAGS"]="  -L/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/flickeringboxesapp/armeabi-v7a -L/"\
-"home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/"\
-"obj/local/armeabi-v7a -L/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a"\
-"__ndk_target_21/libffi/.libs -L/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/arm"\
-"eabi-v7a__ndk_target_21/openssl1.1 -L/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysro"\
-"ot/usr/lib/arm-linux-androideabi/21 -march=armv7-a -Wl,--fix-cortex-a8"
+"spermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/myapp/armeabi-v7a/include/python3.1 -I/ho"\
+"me/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqli"\
+"te3 -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target"\
+"_21/libffi/include -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi"\
+"-v7a__ndk_target_21/openssl1.1/include -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_bu"\
+"ilds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v"\
+"8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl -I/home/jaspermclaughlin/.buildozer/android/platform"\
+"/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include"
+S["LDFLAGS"]="  -L/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/myapp/armeabi-v7a -L/home/ja"\
+"spermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/o"\
+"bj/local/armeabi-v7a -L/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeab"\
+"i-v7a__ndk_target_21/libffi/.libs -L/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/"\
+"openssl/armeabi-v7a__ndk_target_21/openssl1.1 -L/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x"\
+"86_64/sysroot/usr/lib/arm-linux-androideabi/21 -march=armv7-a -Wl,--fix-cortex-a8"
 S["CFLAGS"]="-fPIC -DANDROID"
 S["CC"]="/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/armv7a-linux-androideabi21-clang"
 S["EXPORT_MACOSX_DEPLOYMENT_TARGET"]="#"
@@ -1072,45 +1072,45 @@ S["LIPO_32BIT_FLAGS"]=""
 S["ARCH_RUN_32BIT"]=""
 S["UNIVERSALSDK"]=""
 S["PKG_CONFIG_LIBDIR"]=""
-S["PKG_CONFIG_PATH"]="/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi"
+S["PKG_CONFIG_PATH"]="/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/li"\
+"bffi"
 S["PKG_CONFIG"]="/usr/bin/pkg-config"
 S["CONFIG_ARGS"]=" '--host=arm-linux-androideabi' '--build=x86_64-pc-linux-gnu' '--enable-shared' '--enable-ipv6' 'ac_cv_file__dev_ptmx=yes' 'ac_cv_file__dev_ptc=no' "\
 "'--without-ensurepip' 'ac_cv_little_endian_double=yes' 'ac_cv_header_sys_eventfd_h=no' '--prefix=/usr/local' '--exec-prefix=/usr/local' '--enable-lo"\
-"adable-sqlite-extensions' '--with-build-python=/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_bu"\
-"ilds/hostpython3/desktop/hostpython3/native-build/python3' '--with-openssl=/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8"\
-"a_armeabi-v7a/build/other_builds/openssl/arm64-v8a__ndk_target_21/openssl1.1' '--with-openssl=/home/jaspermclaughlin/kivygui/.buildozer/android/plat"\
-"form/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=arm"\
-"-linux-androideabi' 'PKG_CONFIG_PATH=/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libff"\
-"i/armeabi-v7a__ndk_target_21/libffi' 'CC=/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/b"\
-"in/armv7a-linux-androideabi21-clang' 'CFLAGS=-fPIC -DANDROID' 'LDFLAGS=  -L/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8"\
-"a_armeabi-v7a/build/libs_collections/flickeringboxesapp/armeabi-v7a -L/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_arm"\
-"eabi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a -L/home/jaspermclaughlin/kivygui/.buildozer/android/pla"\
-"tform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs -L/home/jaspermclaughlin/kivygui/.buildozer/andr"\
-"oid/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 -L/home/jaspermclaughlin/.buildozer/androi"\
-"d/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21' 'LIBS= -lsqlite3 -lffi -lcrypto1.1 -lssl"\
-"1.1 -lz' 'CPPFLAGS=-DANDROID -I/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr"\
-"/include -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/flickeringboxesapp/armeabi-v"\
-"7a/include/python3.1 -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/armeabi-v7a"\
-"__ndk_target_21/sqlite3 -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v"\
-"7a__ndk_target_21/libffi/include -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl"\
-"/armeabi-v7a__ndk_target_21/openssl1.1/include -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_"\
-"builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal -I/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_a"\
-"rmeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl -I/home/jaspermclaughlin/.buildozer/android/platform/and"\
-"roid-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include'"
+"adable-sqlite-extensions' '--with-build-python=/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/ot"\
+"her_builds/hostpython3/desktop/hostpython3/native-build/python3' '--with-openssl=/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/bu"\
+"ild-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1' 'build_alias=x86_64-pc-linux-gnu' 'host_alias=arm-linux-"\
+"androideabi' 'PKG_CONFIG_PATH=/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi"\
+"/armeabi-v7a__ndk_target_21/libffi' 'CC=/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bi"\
+"n/armv7a-linux-androideabi21-clang' 'CFLAGS=-fPIC -DANDROID' 'LDFLAGS=  -L/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm"\
+"64-v8a_armeabi-v7a/build/libs_collections/myapp/armeabi-v7a -L/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armea"\
+"bi-v7a/build/other_builds/sqlite3/armeabi-v7a__ndk_target_21/sqlite3/obj/local/armeabi-v7a -L/home/jaspermclaughlin/repos/kivygui/.buildozer/android"\
+"/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/libffi/armeabi-v7a__ndk_target_21/libffi/.libs -L/home/jaspermclaughlin/repos/kivygui/.buil"\
+"dozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1 -L/home/jaspermclaughlin/.buildo"\
+"zer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21' 'LIBS= -lsqlite3 -lffi -lcrypt"\
+"o1.1 -lssl1.1 -lz' 'CPPFLAGS=-DANDROID -I/home/jaspermclaughlin/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/s"\
+"ysroot/usr/include -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/myapp/armeab"\
+"i-v7a/include/python3.1 -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/sqlite3/ar"\
+"meabi-v7a__ndk_target_21/sqlite3 -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/l"\
+"ibffi/armeabi-v7a__ndk_target_21/libffi/include -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build"\
+"/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include -I/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v"\
+"8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/internal -I/home/jaspermclaughlin/repos/kivygui/.buildozer/a"\
+"ndroid/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/openssl/armeabi-v7a__ndk_target_21/openssl1.1/include/openssl -I/home/jaspermclaughli"\
+"n/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include'"
 S["SOVERSION"]="1.0"
 S["VERSION"]="3.11"
-S["PYTHON_FOR_REGEN"]="/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-bui"\
-"ld/python3"
+S["PYTHON_FOR_REGEN"]="/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/nati"\
+"ve-build/python3"
 S["PYTHON_FOR_BUILD_DEPS"]=""
 S["FREEZE_MODULE_DEPS"]="$(FREEZE_MODULE_BOOTSTRAP_DEPS)"
 S["FREEZE_MODULE"]="$(FREEZE_MODULE_BOOTSTRAP)"
 S["FREEZE_MODULE_BOOTSTRAP_DEPS"]="$(srcdir)/Programs/_freeze_module.py"
 S["FREEZE_MODULE_BOOTSTRAP"]="$(PYTHON_FOR_FREEZE) $(srcdir)/Programs/_freeze_module.py"
-S["PYTHON_FOR_FREEZE"]="/home/jaspermclaughlin/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-bui"\
-"ld/python3"
+S["PYTHON_FOR_FREEZE"]="/home/jaspermclaughlin/repos/kivygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/nati"\
+"ve-build/python3"
 S["PYTHON_FOR_BUILD"]="_PYTHON_PROJECT_BASE=$(abs_builddir) _PYTHON_HOST_PLATFORM=$(_PYTHON_HOST_PLATFORM) PYTHONPATH=$(shell test -f pybuilddir.txt && echo $(abs_builddir"\
-")/`cat pybuilddir.txt`:)$(srcdir)/Lib _PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_$(ABIFLAGS)_$(MACHDEP)_$(MULTIARCH) /home/jaspermclaughlin/kivygui/."\
-"buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3"
+")/`cat pybuilddir.txt`:)$(srcdir)/Lib _PYTHON_SYSCONFIGDATA_NAME=_sysconfigdata_$(ABIFLAGS)_$(MACHDEP)_$(MULTIARCH) /home/jaspermclaughlin/repos/kiv"\
+"ygui/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/python3"
 S["host_os"]="linux-androideabi"
 S["host_vendor"]="unknown"
 S["host_cpu"]="arm"

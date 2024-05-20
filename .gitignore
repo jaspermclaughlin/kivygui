@@ -1,8 +1,8 @@
-.buildozer/
-.idea/
-adbStuff/
 bin/
+adbStuff/
 venv-3.10/
 venv-3.12/
-buildozer.spec
-requirements.txt
+.buildozer/
+.git/
+.idea/
+

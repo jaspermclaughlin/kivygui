@@ -14,12 +14,8 @@ from kivy.uix.behaviors import ButtonBehavior
 
 # Comment about internal Clock() function: 
 # Checking the "dt" after each update cycle it turns out that the intervals are not calculated correctly. at a refresh rate of 60Hz the updating should occur 
-# in 1/60 = 0.016666 second intervals. This is not the case. The app performs the updating at intervals of 0.0125. Specifically, I tested whether this is a gradual
-# approximation, and it is not. The critical point where there is a sudden change in the "dt" is at a refresh rate of 55Hz where the updating intervals suddenly double
-# and are called every 0.025 seconds. You can check this by adjusting the REFRESHRATE variable and print(dt). 
+# in 1/60 = 0.016666 second intervals. This is not the case. To correct for this, I introduced a sleep buffer which approximates the error of the internal clock module. 
 
-
-# This implementation is dependent on the refreshrate. Ideally, this should be coded dynamically but I am not sure how. 
 REFRESHRATE = 60  
 
 class ColoredBox(BoxLayout):
@@ -63,8 +59,8 @@ class ColoredBox(BoxLayout):
             # Getting the updating cycles as close as possible to the correct cycles
             error = (1/REFRESHRATE) - dt
             if error > 0:
-                sleep(error) #
-            print(dt)
+                sleep(error)
+            # print(dt)
 
 
 class ResponseBox(ButtonBehavior, ColoredBox):
