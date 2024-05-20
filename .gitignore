@@ -1,8 +1,0 @@
-bin/
-adbStuff/
-venv-3.10/
-venv-3.12/
-.buildozer/
-.git/
-.idea/
-
