@@ -79,7 +79,7 @@ class FlickeringBoxesApp(App):
     def build(self):
         self.layout = GridLayout(cols=2, spacing=10)
         words = ["Banana", "Apple", "Orange", "Cucumber"]
-        frequencies = [3, 6, 10, 15]
+        frequencies = [6, 12, 20, 30]
         self.response_boxes = []
 
         for i, word in enumerate(words):
