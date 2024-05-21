@@ -23,7 +23,7 @@ class ColoredBox(BoxLayout):
         super(ColoredBox, self).__init__(**kwargs)
         self.base_frequency = base_frequency
         self.nframes = 0
-        self.targetFrames = REFRESHRATE / (base_frequency*2)
+        self.targetFrames = REFRESHRATE / base_frequency
         self.flicker_state = 1
         self.app = app
 
