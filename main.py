@@ -91,7 +91,7 @@ class FlickeringBoxesApp(App):
             self.layout.add_widget(response_box)
             self.response_boxes.append(response_box)
 
-            Clock.schedule_interval(response_box.update, 1.0 / REFRESHRATE) # !!!
+            Clock.schedule_interval(response_box.update, 1.0 / REFRESHRATE) # !!! Has to be divisor: 1,2,3,4,5,6,10,12,15,20,30,60
 
         toggle_button = Button(text="Start", on_press=self.toggle_clock)
         settings_button = Button(text="Settings", on_press=self.show_settings_popup)
